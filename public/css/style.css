@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+.img-hero {
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../images/compras.webp");
+  background-attachment: fixed;
+  background-position: center center;
+  filter: brightness(55%);
+  position: relative; }
+
+.img-svg {
+  height: 1.875rem;
+  width: 1.875rem; }
