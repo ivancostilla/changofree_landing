@@ -1,0 +1,19 @@
+/* paleta de colores */
+$amarillo:rgb(233, 194, 37);
+$amarillo-oscuro:rgb(122, 99, 6);
+$azul: rgb(47, 52, 197);
+$gris-oscuro: rgb(35, 33, 36);
+$gris-medio:rgb(75, 75, 75);
+$gris-claro:rgb(231, 231, 231);
+$violeta: rgb(141, 16, 183);
+$blanco: rgb(250, 249, 249);
+
+/* font family */
+$roboto: "Roboto", sans-serif;
+$bebas: 'Bebas Neue', cursive;
+
+@mixin flex {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}

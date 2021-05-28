@@ -1,21 +1,105 @@
-*{
-    padding: 0;
-    margin: 0;
+@import "../utils/utils";
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
 }
-.img-hero{
-    object-fit: cover;
-    width: 100%;
-    height: 100vh;
-    background-image: url("../images/compras.webp");
-    background-attachment: fixed;
-    background-position: center center;
-    filter: brightness(55%);
-    position:relative;
+
+body{
+    background-color: $blanco;
+    font-family: $roboto;
+    font-weight: 400;
+    font-size: 1.3125rem;
+    line-height: 1.6;
+    text-align: center;
+    overflow-x: hidden;
+    position: relative;
 }
-.img-svg{
-    height: 1.875rem;
-    width: 1.875rem;
+
+h1{
+    font-size: 5rem;
 }
-// .header-content{
-//     position: absolute;
-// }
+
+h2,
+h3{
+    font-size: 3rem;
+}
+
+h1,
+h2,
+h3,
+.section-2 p.uppercase,
+.section-4 p,
+.section-5 p{
+    line-height: 1;
+    font-family: $bebas;
+    font-weight: 900;
+}
+
+body,
+h1,
+h2,
+h3,
+p{
+    margin:0;
+}
+
+section{
+    padding: 3rem 0;
+}
+
+a,
+a:visited{
+    text-decoration: none;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.lowercase{
+    text-transform: lowercase;
+}
+
+.capitalize{
+    text-transform: initial;
+}
+.initial{
+    text-transform: initial;
+}
+.bg-gris-claro{
+    color: $gris-oscuro;
+    background-color: $gris-claro;
+}
+.bg-gris-medio{
+    background-color: $gris-medio;
+}
+
+.bg-gris-oscuro,
+.bg-gris-medio{
+    &, a{
+    color: $blanco;
+    }
+}
+.bg-gris-oscuro{
+
+    background-color: $gris-oscuro;
+}
+.bg-azul{
+    background-color: $azul;
+}
+.bg-violeta{
+    background-color: $violeta;
+}
+.color-amarillo{
+    color: $amarillo;
+}
+
+.color-gris{
+    color: $gris-oscuro;
+}
+
+.color-violeta{
+    color: $violeta;
+}

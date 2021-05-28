@@ -5,86 +5,113 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <!-- fuente: -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> 
     <title>Changofree</title>
 </head>
 <body>
     <header class="header">
         <div class="img-hero" alt="compras">
-            <h1>Crea tu tienda online hoy</h1>
-            <p>Digitalizá tu negocio y deja la puerta abierta 24/7 Ofrecé Mercadopago y envíos</p>
-            <div class="img-svg" src="images/scroll.svg" alt="scroll image">
+            <h1 class="uppercase">Crea tu tienda online hoy</h1>
+            <div>
+                <p>Digitalizá tu negocio y deja la puerta abierta 24/7</p>
+                <p> Ofrecé Mercadopago y envíos</p>
+            </div>
+            <img class="img-svg" src="images/scroll.svg" alt="scroll image">
         </div>
     </header>
     <main>
-        <section>
-            <h2>Sin necesidad de ser experto</h2>
+        <section class="bg-gris-claro">
+            <h2 class="uppercase">Sin necesidad de ser experto</h2>
         </section>
-        <section>
-            <div>
-                <div></div>
-                <p>Rápido</p>
-                <p>Creá tu tienda online en cuestión de segundos.</p>
-            </div>
-            <div>
-                <div></div>
-                <p>Fácil</p>
-                <p>No es necesario saber de programación ni de tecnología.</p>
-            </div>
-            <div>
-                <div></div>
-                <p>Práctico</p>
-                <p>Todo al alcance de unos clicks. Olvidate de los problemas.</p>
-            </div>
-        </section>
-        <section>
-            <h3>Probá 30 días gratis</h3>
-            <a href="">
-                <p>Crear tienda Ahora</p>
-            </a>
-        </section>
-        <section>
-            <h3>nuestros precios</h3>
-            <p>sin comisión por ventas</p>
-            <div>
-                <h3>Plan growth</h3>
-                <ul>
-                    <li>Configuración SEO</li>
-                    <li>Sin limite de ventas</li>
-                    <li>Sin limite de visitas</li>
-                    <li>Control de stock</li>
-                    <li>Configurar dominio propio</li>
-                    <li>Seleccionar plantillas</li>
-                </ul>
-                <p>$1.650 / mes</p>
-                <p>probar 30 dias gratis</p>
-            </div>
-            <div>
-                <div>
-                    <p>best seller</p>
+        <section class="section-2 color-gris">
+            <div class="container">
+                <div class="section-2__box">
+                    <div class="circle bg-violeta"></div>
+                    <p class="uppercase section-2__title">Rápido</p>
+                    <p>Creá tu tienda online en cuestión de segundos.</p>
                 </div>
-                <h3>Plan xtreme</h3>
-                <ul>
-                    <li>Todo lo del plan Growth</li>
-                    <li>Asesoramiento en Ads</li>
-                    <li>Te ayudamos a elegir tu dominio</li>
-                    <li>Subimos tus primeros 10 productos gratis</li>
-                </ul>
-                <p>$2.800 / mes</p>
-                <p>probar 30 dias gratis</p>
+                <div class="section-2__box">
+                    <div class="circle bg-azul"></div>
+                    <p class="uppercase section-2__title">Fácil</p>
+                    <p>No es necesario saber de programación ni de tecnología.</p>
+                </div>
+                <div class="section-2__box">
+                    <div class="circle bg-violeta"></div>
+                    <p class="uppercase section-2__title">Práctico</p>
+                    <p>Todo al alcance de unos clicks. Olvidate de los problemas.</p>
+                </div>
             </div>
         </section>
-        <section>
-            <h3>¿Querés que hagamos la tienda por vos?</h3>
-            <p>contactate con nosotros</p>
-            <a href="">
-                <p>Contactarme con ventas</p>
-            </a>
+        <section class="section-3 bg-gris-oscuro uppercase">
+            <h3>Probá 30 días gratis</h3>
+            <a class="button" href="#">Crear tienda Ahora</a>
+        </section>
+        <section class="section-4 uppercase">
+            <div class="container">
+                <h3 class="color-gris">nuestros precios</h3>
+                <p class="color-violeta">sin comisión por ventas</p>
+                <div class="card">
+                    <a href="">
+                        <div class="card__title card__title-1">
+                            <h3>Plan growth</h3>
+                        </div>
+                        <div class="card__content card__content-1">
+                           <ul class="initial color-gris">
+                                <li>Configuración <span class="uppercase">seo</span></li>
+                                <li>Sin limite de ventas</li>
+                                <li>Sin limite de visitas</li>
+                                <li>Control de stock</li>
+                                <li>Configurar dominio propio</li>
+                                <li>Seleccionar plantillas</li>
+                            </ul>
+                        </div>
+                        <div class="card__price card__price-1">
+                            <p>$1.650 / mes</p>
+                        </div>
+                        <div class="card__p">
+                            <p>probar 30 dias gratis</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="">
+                        <div class="card__seller">
+                            <p>best seller</p>
+                        </div>
+                        <div class="card__clip"></div>
+                        <div class="card__title">
+                            <h3>Plan xtreme</h3>
+                        </div>
+                        <div class="card__content">
+                            <ul class="initial color-gris">
+                                <li>Todo lo del plan <span class="capitalize">Growth</spann></li>
+                                <li>Asesoramiento en <span class="capitalize">Ads</spann></li>
+                                <li>Te ayudamos a elegir tu dominio</li>
+                                <li>Subimos tus primeros 10 productos gratis</li>
+                            </ul>
+                        </div>
+                        <div class="card__price">
+                            <p>$2.800 / mes</p>
+                        </div>
+                        <div class="card__p">
+                            <p>probar 30 dias gratis</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="section-5 uppercase">
+            <div class="bg-gris-oscuro container shadow-drop-center">
+                <h3>¿Querés que hagamos la tienda por vos?</h3>
+                <p class="color-amarillo">¡contactate con nosotros!</p>
+                <a class="button" href="#">Contactarme con ventas</a>
+            </div>
         </section>
     </main>
-    <footer>
-        <a href="">
-            <p>Changofee&copy; 2021</p>
-        </a>
+    <footer class="bg-gris-medio">
+        <a href="">Changofree&copy; 2021</a>
     </footer>
 </body>
 </html>
